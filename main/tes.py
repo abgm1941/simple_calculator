@@ -46,4 +46,4 @@ num1 = float(input("Masukan angka 1 : "))
 num2 = float(input("Masukan angka 2 : "))
 
 res = operations[userChoice]['func'](num1, num2)
-print("Hasil dari " + operations[userChoice]['name'] + " = " + str(res))
+print("Hasil perhitungan dari " + operations[userChoice]['name'] + " = " + str(res))
